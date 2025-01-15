@@ -1,2 +1,0 @@
-#  Communication and networking assignment
- 
