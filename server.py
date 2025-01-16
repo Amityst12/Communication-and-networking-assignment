@@ -58,7 +58,7 @@ def handle_client(client_socket, client_adress):
             else: client_socket.sendall("Invalid format.\nSend message in this format: '@Target_name (message).".encode('utf-8'))
             
             # Respond to client
-            response = f"Message received: {message}"
+            response = f"Message sent: {message}"
             client_socket.sendall(response.encode('utf-8'))
             
     except Exception as e:
